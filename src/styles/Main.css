@@ -1,0 +1,62 @@
+#main-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  height: calc(100vh - 4rem);
+}
+
+#left-pane {
+  box-sizing: border-box;
+  overflow-y: auto;
+  padding: 3rem;
+  width: 55%;
+  transition: width 0.3s;
+  /* height: 100px; */
+  /* width: 100px; */
+  background-color: rgb(222, 213, 213);
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  gap: 3rem;
+  row-gap: 4rem;
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
+}
+
+#left-pane::-webkit-scrollbar {
+    display: none;
+  }
+
+#right-pane {
+  box-sizing: border-box;
+  width: 45%;
+  /* height: 100px; */
+  /* width: 100px; */
+  background-color: rgb(178, 178, 212);
+  /* box-shadow: rgba(73, 73, 126, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
+}
+
+@media (max-width: 1500px) {
+  #right-pane {
+    display: none;
+  }
+
+  #left-pane {
+    width: 100%;
+  }
+}
+
+@media (max-width: 750px) {
+  #left-pane {
+    grid-template-columns: 2fr 2fr;
+  }
+}
+
+@media (max-width: 500px) {
+  #left-pane {
+    padding: 2rem;
+    gap: 2rem;
+  }
+}
