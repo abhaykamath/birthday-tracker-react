@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/birthday-tracker-react/static/css/main.e18c844f.css",
-    "main.js": "/birthday-tracker-react/static/js/main.26bd973a.js",
+    "main.js": "/birthday-tracker-react/static/js/main.ba573d78.js",
     "index.html": "/birthday-tracker-react/index.html",
     "main.e18c844f.css.map": "/birthday-tracker-react/static/css/main.e18c844f.css.map",
-    "main.26bd973a.js.map": "/birthday-tracker-react/static/js/main.26bd973a.js.map"
+    "main.ba573d78.js.map": "/birthday-tracker-react/static/js/main.ba573d78.js.map"
   },
   "entrypoints": [
     "static/css/main.e18c844f.css",
-    "static/js/main.26bd973a.js"
+    "static/js/main.ba573d78.js"
   ]
 }
