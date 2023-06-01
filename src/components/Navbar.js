@@ -7,7 +7,7 @@ function Navbar() {
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid">
           <a className="navbar-brand" href="/">
-            <img src="../happy-birthday.png" alt="logo" height="24" />
+            <img src="happy-birthday.png" alt="logo" height="24" />
             Birthday Reminder
           </a>
           <button

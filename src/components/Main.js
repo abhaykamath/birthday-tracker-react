@@ -7,7 +7,7 @@ function Main() {
     {
       id: "abhay",
       name: "M Abhay Kamath",
-      src: "../abhay.png",
+      src: "abhay.png",
       date: "January 22nd",
       day: 22,
       month: 1,
@@ -15,7 +15,7 @@ function Main() {
     {
       id: "rihan",
       name: "Rihan Rajan",
-      src: "../rihan.JPG",
+      src: "rihan.JPG",
       date: "August 15th",
       day: 15,
       month: 8,
@@ -23,7 +23,7 @@ function Main() {
     {
       id: "mudit",
       name: "Mudit Vyas",
-      src: "../mudit.jpeg",
+      src: "mudit.jpeg",
       date: "November 6th",
       day: 6,
       month: 11,
@@ -31,7 +31,7 @@ function Main() {
     {
       id: "nirmal",
       name: "Nirmal Suresh",
-      src: "../nirmal.JPG",
+      src: "nirmal.JPG",
       date: "June 14th",
       day: 14,
       month: 6,
@@ -39,7 +39,7 @@ function Main() {
     {
       id: "kumar",
       name: "Kumar Ramesh",
-      src: "../kumar.jpg",
+      src: "kumar.jpg",
       date: "December 6th",
       day: 6,
       month: 12,
@@ -47,7 +47,7 @@ function Main() {
     {
       id: "sashank",
       name: "Sashank Soundar",
-      src: "../sashank.jpg",
+      src: "sashank.jpg",
       date: "April 27th",
       day: 27,
       month: 4,
@@ -55,7 +55,7 @@ function Main() {
     {
       id: "praneeth",
       name: "Praneeth Lanka",
-      src: "../praneeth.jpg",
+      src: "praneeth.jpg",
       date: "April 20th",
       day: 20,
       month: 4,
@@ -63,7 +63,7 @@ function Main() {
     {
       id: "navneeth",
       name: "Navneeth",
-      src: "../navneeth.jpg",
+      src: "navneeth.jpg",
       date: "February 19th",
       day: 19,
       month: 2,
@@ -71,7 +71,7 @@ function Main() {
     {
       id: "rakshith",
       name: "Rakshit M Kotian",
-      src: "../rakshit.jpg",
+      src: "rakshit.jpg",
       date: "January 31st",
       day: 31,
       month: 1,
